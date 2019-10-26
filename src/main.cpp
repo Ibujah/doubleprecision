@@ -84,5 +84,7 @@ int main(int argc, char** argv)
 	else
 		std::cout << "Distances non égales" << std::endl;
 	
+	std::cout << std::abs(d1+1.0) << " " << abs(d1+1.0) << std::endl;
+	
 	return 0;
 }
